@@ -13,5 +13,29 @@
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<dependencies>
+    <dependency>
+        <artifactId>cucumber-java</artifactId>
+        <groupId>io.cucumber</groupId>
+        <version>4.8.1</version>
+    </dependency>
 
+    <dependency>
+        <artifactId>cucumber-junit</artifactId>
+        <groupId>io.cucumber</groupId>
+        <version>4.8.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.31.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.1.2</version>
+    </dependency>
+</dependencies>
 </project>
